@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 3em;
+    text-align: center;
+    margin: 3em 0 2em 0;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 1.5em 0;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-1 {
+    background: #302f2f;
+    border: none;
+}
+
+.button-2 {
+    background: #302f2f;
+    border: none;
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+form .form-control {
+    padding: 1em;
+    width: 100%;
+    display: block;
+    background: #d8d6d6;
+}
+
+form button {
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+
+
+/* mainheader */
+#mainheader {
+    background: url("/img/showcase.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#mainheader .logo {
+    height: 60px;
+    margin-top: 3em; 
+}
+
+/* showcase */
+
+#showcase p {
+    margin-bottom: 3em;
+}
+
+#showcase .button-1 {
+
+display: block;
+margin: 0 auto;
+    text-align: center;
+margin-bottom: 2em;
+}
+
+/* features */
+#features {
+    background: #181717;
+}
+
+.card {
+    margin-bottom: 3em;
+  
+}
+
+
+.features-row .card{
+    float: left;
+    width: 33%;
+}
+
+.material-icons {
+   color: rgba(255, 0, 0, 0.322);
+   font-size: 120px;
+   margin: 0 auto;
+   text-align: center;
+   display: block;
+}
+
+.card {
+    padding: 30px;
+}
+
+.card h3, h4{
+    text-align: center;
+    color: #424141;
+    line-height: 30px;
+}
+
+.card ul {
+    margin-top: 1em;
+    color: #424141;
+    text-align: justify;
+}
+
+/* contact */
+#contact {
+    background: #000;
+ color: #fff;
+}
+
+#contact form {
+    float: left;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#disclaimer h2 {
+    margin: 0;
+font-size: 2em;
+}
+
+/* tutorial */
+
+#tutorial {
+    background: #181717;
+}
+
+.video {
+    text-align: center;
+    margin: 3em 0;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    padding: 1em;
+    background: #000;
+}

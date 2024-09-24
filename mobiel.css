@@ -1,0 +1,26 @@
+#mainheader .logo {
+    width: 75%;
+    height: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3em;
+}
+
+.features-row .card{
+    float: none;
+    width: 100%;
+}
+
+#contact form {
+    float: none;
+    width: 100%;
+}
+
+.container:nth-child(1) {order:2}
+.container:nth-child(2) {order:1}
+
+.video iframe {
+    width: 100%;
+    height:300px;
+}
