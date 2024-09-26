@@ -78,6 +78,13 @@ form button {
     margin-bottom: 3em;
 }
 
+::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 500;
+    content: "\f007";
+    text-align: right;
+}
+
 
 
 /* mainheader */
@@ -122,6 +129,27 @@ margin-bottom: 2em;
 .features-row .card{
     float: left;
     width: 33%;
+}
+
+.features-row .card h3 {
+    width: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 2rem;
+}
+
+.features-row .card h4 {
+  color: #a8a8a8
+}
+
+.features-row .card img {
+    width: 70%;
+    height: 40vh;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .material-icons {
